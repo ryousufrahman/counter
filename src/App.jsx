@@ -2,6 +2,7 @@ import Book from "./Book"
 import Counter from './Counter';
 import Batsman from "./Batsman";
 import "./App.css";
+import Increase from "./Increase";
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <h1>Get started</h1>
-      {/* <Book></Book> */}
+      <Book></Book>
+      <Increase></Increase>
       <Counter></Counter>
       <Batsman></Batsman>
     </>

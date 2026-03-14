@@ -182,3 +182,18 @@
     border-right-color: var(--border);
   }
 }
+
+.card-div{
+  border: 2px solid gold;
+  padding: 15px;
+  margin: 15px;
+}
+button{
+  padding: 10px 15px;
+  margin-right: 10px;
+  
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+}
